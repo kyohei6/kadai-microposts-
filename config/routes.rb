@@ -10,11 +10,6 @@ Rails.application.routes.draw do
     member do
       get :followings
       get :followers
-    end
-    collection do
-      get :search
-    end
-    member do
       get :likes
     end
   end
